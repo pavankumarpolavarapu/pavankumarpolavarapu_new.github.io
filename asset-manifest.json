@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.e611a267.css",
-    "main.js": "/static/js/main.7cf650a5.js",
-    "static/js/787.1e3e1f16.chunk.js": "/static/js/787.1e3e1f16.chunk.js",
-    "index.html": "/index.html",
-    "main.e611a267.css.map": "/static/css/main.e611a267.css.map",
-    "main.7cf650a5.js.map": "/static/js/main.7cf650a5.js.map",
-    "787.1e3e1f16.chunk.js.map": "/static/js/787.1e3e1f16.chunk.js.map"
+    "main.css": "/pavankumarpolavarapu.github.io/static/css/main.de7731fc.css",
+    "main.js": "/pavankumarpolavarapu.github.io/static/js/main.6fcf152f.js",
+    "static/js/787.1e3e1f16.chunk.js": "/pavankumarpolavarapu.github.io/static/js/787.1e3e1f16.chunk.js",
+    "index.html": "/pavankumarpolavarapu.github.io/index.html",
+    "main.de7731fc.css.map": "/pavankumarpolavarapu.github.io/static/css/main.de7731fc.css.map",
+    "main.6fcf152f.js.map": "/pavankumarpolavarapu.github.io/static/js/main.6fcf152f.js.map",
+    "787.1e3e1f16.chunk.js.map": "/pavankumarpolavarapu.github.io/static/js/787.1e3e1f16.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e611a267.css",
-    "static/js/main.7cf650a5.js"
+    "static/css/main.de7731fc.css",
+    "static/js/main.6fcf152f.js"
   ]
 }
