@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #fff;
+  max-width: 72rem;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.725;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dark-theme {
+  background-color: #1d1f21;
+  color: #c9cacc;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Color Mode Checkbox */
+
+
+.switch {
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  width: 48px;
+  height: 21px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 17px;
+  width: 17px;
+  left: 4px;
+  bottom: 2px;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #ffffff;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+  background-color: #000000;
+}
+
+
+
+/*End of Color Mode Button */
+
+.container {
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  margin-top: 5rem;
+  display: block;
+  color: #2bbc8a;
+} 
+
+h2, h3, h4 {
+  margin-bottom: 1rem;
+  display: block;
+  color: #2bbc8a;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header h4 {
+  color: #666;
+  margin-bottom: 1rem;
 }
+
+/* About Me */
+
+.aboutme{
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+/* Font Awesome Hover Icon on Button */
+button{border:none; outline:none;}
