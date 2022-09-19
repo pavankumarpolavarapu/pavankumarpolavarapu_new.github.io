@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/pavankumarpolavarapu.github.io/static/css/main.de7731fc.css",
-    "main.js": "/pavankumarpolavarapu.github.io/static/js/main.6fcf152f.js",
+    "main.js": "/pavankumarpolavarapu.github.io/static/js/main.87d94d79.js",
     "static/js/787.1e3e1f16.chunk.js": "/pavankumarpolavarapu.github.io/static/js/787.1e3e1f16.chunk.js",
     "index.html": "/pavankumarpolavarapu.github.io/index.html",
     "main.de7731fc.css.map": "/pavankumarpolavarapu.github.io/static/css/main.de7731fc.css.map",
-    "main.6fcf152f.js.map": "/pavankumarpolavarapu.github.io/static/js/main.6fcf152f.js.map",
+    "main.87d94d79.js.map": "/pavankumarpolavarapu.github.io/static/js/main.87d94d79.js.map",
     "787.1e3e1f16.chunk.js.map": "/pavankumarpolavarapu.github.io/static/js/787.1e3e1f16.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de7731fc.css",
-    "static/js/main.6fcf152f.js"
+    "static/js/main.87d94d79.js"
   ]
 }
